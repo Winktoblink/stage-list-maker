@@ -1,0 +1,257 @@
+[
+  {
+    "stage": "Kalos Pokémon League",
+    "name": "Kalos Pokémon League",
+    "lvd": "kalos_00",
+    "collisions": [
+      {
+        "name": "COL_00_Hall_Floor01",
+        "vertex": [
+          [
+            -80.0,
+            -200.0
+          ],
+          [
+            -80.0,
+            0.0
+          ],
+          [
+            -75.0,
+            0.0
+          ],
+          [
+            75.0,
+            0.0
+          ],
+          [
+            80.0,
+            0.0
+          ],
+          [
+            80.0,
+            -200.0
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 180,
+            "length": 200.0,
+            "ceiling": false,
+            "wall": true,
+            "material": "Brick"
+          },
+          {
+            "leftLedge": true,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 5.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Brick"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 150.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Brick"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": true,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 5.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Brick"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 0,
+            "length": 200.0,
+            "ceiling": false,
+            "wall": true,
+            "material": "Brick"
+          }
+        ],
+        "boundingBox": [
+          [
+            -80.0,
+            -200.0
+          ],
+          [
+            80.0,
+            0.0
+          ]
+        ]
+      }
+    ],
+    "platforms": [
+      {
+        "name": "COL_00_Hall_Platform01_through",
+        "vertex": [
+          [
+            -97.17275,
+            30.0
+          ],
+          [
+            -62.1727524,
+            30.0
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Brick"
+          }
+        ],
+        "boundingBox": [
+          [
+            -97.17275,
+            30.0
+          ],
+          [
+            -62.1727524,
+            30.0
+          ]
+        ]
+      },
+      {
+        "name": "COL_00_Hall_Platform02_through",
+        "vertex": [
+          [
+            62.17275,
+            30.0
+          ],
+          [
+            97.1727448,
+            30.0
+          ]
+        ],
+        "materials": [
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 90,
+            "length": 0.0,
+            "ceiling": false,
+            "wall": false,
+            "material": "Brick"
+          }
+        ],
+        "boundingBox": [
+          [
+            62.17275,
+            30.0
+          ],
+          [
+            97.1727448,
+            30.0
+          ]
+        ]
+      }
+    ],
+    "blast_zones": [
+      -245.0,
+      245.0,
+      192.0,
+      -118.0
+    ],
+    "camera": [
+      -165.0,
+      165.0,
+      130.0,
+      -60.0
+    ],
+    "center": [
+      0.0,
+      45.9843
+    ],
+    "spawns": [
+      [
+        -35.0,
+        0.0
+      ],
+      [
+        35.0,
+        0.0
+      ],
+      [
+        -75.208,
+        30.0
+      ],
+      [
+        75.208,
+        30.0
+      ],
+      [
+        -58.0,
+        0.0
+      ],
+      [
+        58.0,
+        0.0
+      ],
+      [
+        -12.0,
+        0.0
+      ],
+      [
+        12.0,
+        0.0
+      ]
+    ],
+    "respawns": [
+      [
+        0.0,
+        90.0
+      ],
+      [
+        35.0,
+        90.0
+      ],
+      [
+        -35.0,
+        90.0
+      ],
+      [
+        70.0,
+        90.0
+      ],
+      [
+        -17.5,
+        104.5
+      ],
+      [
+        17.5,
+        104.5
+      ],
+      [
+        -52.5,
+        104.5
+      ],
+      [
+        52.5,
+        104.5
+      ]
+    ],
+    "items": []
+  }
+]
