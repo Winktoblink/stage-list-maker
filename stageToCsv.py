@@ -6,8 +6,8 @@ import os
 stage_data = []
 fields = ['stage_name', 'min_left_blast_zone', 'min_right_blast_zone', 'min_top_blast_zone', 'min_bottom_blast_zone',
           'max_left_blast_zone', 'max_right_blast_zone', 'max_top_blast_zone', 'max_bottom_blast_zone',
-          'number_of_ledges', 'stage_width', 'min_edge_to_side_blast_zone', 'max_edge_to_side_blast_zone',
-          'highest_platform_to_top_blast_zone', 'hasCeiling', 'hasWallInfinite', 'hasRandom', 'hasWater', 'hasHurt',
+          'number_of_ledges', 'stage_width', 'min_edge_to_side_blast_zone', 'max_edge_to_side_blast_zone', 'hasCeiling',
+          'hasWallInfinite', 'hasRandom', 'hasWater', 'hasHurt',
           'hasIce',
           'hasWalkOffs', 'hasSymmetry', 'hasTransform', 'has2D']
 csvFilename = "stage_data.csv"

@@ -1,112 +1,112 @@
 [
   {
-    "stage": "Wrecking Crew",
-    "name": "Wrecking Crew",
-    "lvd": "wrecking_00",
+    "stage": "Wuhu Island",
+    "name": "Wuhu Island",
+    "lvd": "wuhu_00",
     "collisions": [
       {
-        "name": "COL_00_1F_Floor01",
+        "name": "COL_00_Platform01",
         "vertex": [
           [
-            -97.2,
-            -144.0
+            -104.588661,
+            -121.154671
           ],
           [
-            -97.2,
-            0.0
+            -99.9158859,
+            -122.933746
           ],
           [
-            -92.2,
-            0.0
+            -68.22361,
+            -135.0
           ],
           [
-            92.2,
-            0.0
+            68.2236,
+            -135.0
           ],
           [
-            97.2,
-            0.0
+            99.9158859,
+            -122.933746
           ],
           [
-            97.2,
-            -144.0
+            104.588661,
+            -121.154671
           ]
         ],
         "materials": [
           {
-            "leftLedge": false,
-            "rightLedge": false,
-            "noWallJump": false,
-            "passthroughAngle": 180,
-            "length": 144.0,
-            "ceiling": false,
-            "wall": true,
-            "material": "NebuIron"
-          },
-          {
             "leftLedge": true,
             "rightLedge": false,
             "noWallJump": false,
-            "passthroughAngle": 90,
-            "length": 5.0,
+            "passthroughAngle": 69,
+            "length": 4.999994,
             "ceiling": false,
             "wall": false,
-            "material": "NebuIron"
+            "material": "Brick"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 69,
+            "length": 33.9115753,
+            "ceiling": false,
+            "wall": false,
+            "material": "Brick"
           },
           {
             "leftLedge": false,
             "rightLedge": false,
             "noWallJump": false,
             "passthroughAngle": 90,
-            "length": 184.4,
+            "length": 136.4472,
             "ceiling": false,
             "wall": false,
-            "material": "NebuIron"
+            "material": "Brick"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 110,
+            "length": 33.91158,
+            "ceiling": false,
+            "wall": false,
+            "material": "Brick"
           },
           {
             "leftLedge": false,
             "rightLedge": true,
             "noWallJump": false,
-            "passthroughAngle": 90,
-            "length": 5.0,
+            "passthroughAngle": 110,
+            "length": 4.999994,
             "ceiling": false,
             "wall": false,
-            "material": "NebuIron"
-          },
-          {
-            "leftLedge": false,
-            "rightLedge": false,
-            "noWallJump": false,
-            "passthroughAngle": 0,
-            "length": 144.0,
-            "ceiling": false,
-            "wall": true,
-            "material": "NebuIron"
+            "material": "Brick"
           }
         ],
         "boundingBox": [
           [
-            -97.2,
-            -144.0
+            -104.588661,
+            0.0
           ],
           [
-            97.2,
-            0.0
+            104.588661,
+            13.8453312
           ]
         ]
       }
     ],
     "platforms": [
       {
-        "name": "COL_00_Rooftop_through",
+        "name": "COL_00_Platform02_through",
         "vertex": [
           [
-            -97.2,
-            35.0
+            -26.99874,
+            -105.507889
           ],
           [
-            97.2,
-            35.0
+            26.99874,
+            -105.507889
           ]
         ],
         "materials": [
@@ -118,103 +118,103 @@
             "length": 0.0,
             "ceiling": false,
             "wall": false,
-            "material": "NebuIron"
+            "material": "Brick"
           }
         ],
         "boundingBox": [
           [
-            -97.2,
-            35.0
+            -26.99874,
+            29.4921074
           ],
           [
-            97.2,
-            35.0
+            26.99874,
+            29.4921074
           ]
         ]
       }
     ],
     "blast_zones": [
-      -252.0,
-      252.0,
-      243.8,
-      -97.2
+      -240.0,
+      240.0,
+      213.0,
+      -117.0
     ],
     "camera": [
-      -180.0,
-      180.0,
-      155.0,
-      -38.0
+      -170.0,
+      170.0,
+      151.0,
+      -59.0
     ],
     "center": [
       0.0,
-      0.0
+      13.8453312
     ],
     "spawns": [
       [
-        -66.0,
-        0.0
+        -82.5,
+        5.60940266
       ],
       [
-        66.0,
-        0.0
+        82.5,
+        5.609404
       ],
       [
-        -24.3,
-        0.0
+        -27.5,
+        0.173927248
       ],
       [
-        24.3,
-        0.0
+        27.5,
+        0.173927248
       ],
       [
-        -87.0,
-        0.0
+        56.0,
+        0.699662745
       ],
       [
-        87.0,
-        0.0
+        -56.0,
+        0.699662745
       ],
       [
-        -44.0,
-        0.0
+        -14.926693,
+        28.90073
       ],
       [
-        45.0,
-        0.0
+        15.0,
+        28.90073
       ]
     ],
     "respawns": [
       [
         0.0,
-        115.0
+        80.0
       ],
       [
-        30.0,
-        115.0
+        36.0,
+        80.0
       ],
       [
-        -30.0,
-        115.0
+        -36.0,
+        80.0
       ],
       [
-        60.0,
-        115.0
+        72.0,
+        80.0
       ],
       [
-        -15.0,
-        134.0
+        19.2831326,
+        100.0
       ],
       [
-        15.0,
-        134.0
+        -17.854496,
+        100.0
       ],
       [
-        -45.0,
-        133.0
+        53.30638,
+        100.0
       ],
       [
-        45.0,
-        133.0
+        -55.02282,
+        100.0
       ]
     ],
     "items": []

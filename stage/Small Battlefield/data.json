@@ -1,71 +1,55 @@
 [
   {
-    "stage": "Unova Pokémon League",
-    "name": "Unova Pokémon League",
-    "lvd": "plasma_00",
+    "stage": "Small Battlefield",
+    "name": "Small Battlefield",
+    "lvd": "battlefield_s_00",
     "collisions": [
       {
         "name": "COL_00_Floor01",
         "vertex": [
           [
-            -53.0129051,
-            -180.000015
+            41.4161568,
+            -40.11807
           ],
           [
-            -53.0129051,
-            -94.08792
+            -41.3962,
+            -40.0989761
           ],
           [
-            -61.0514221,
-            -50.87609
+            -64.39471,
+            -25.111
           ],
           [
-            -79.6287155,
-            -34.2806969
+            -79.9856,
+            -8.318714
           ],
           [
-            -81.75,
-            -23.6591549
+            -79.9856,
+            0.000259507942
           ],
           [
-            -81.75,
-            0.0
+            -74.9856,
+            0.000259507942
           ],
           [
-            -76.75,
-            0.0
+            74.9893,
+            0.000259507942
           ],
           [
-            76.75,
-            0.0
+            79.9893,
+            0.000259507942
           ],
           [
-            81.75,
-            0.0
+            79.9893,
+            -8.318714
           ],
           [
-            81.75,
-            -14.3631
+            64.38729,
+            -25.1031055
           ],
           [
-            79.73945,
-            -35.3368835
-          ],
-          [
-            66.247406,
-            -50.0750542
-          ],
-          [
-            59.06903,
-            -63.9229546
-          ],
-          [
-            62.5207634,
-            -94.10154
-          ],
-          [
-            62.5207634,
-            -180.000015
+            41.4161568,
+            -40.11807
           ]
         ],
         "materials": [
@@ -73,8 +57,18 @@
             "leftLedge": false,
             "rightLedge": false,
             "noWallJump": false,
-            "passthroughAngle": 180,
-            "length": 85.9120941,
+            "passthroughAngle": 270,
+            "length": 82.812355,
+            "ceiling": true,
+            "wall": false,
+            "material": "Brick"
+          },
+          {
+            "leftLedge": false,
+            "rightLedge": false,
+            "noWallJump": false,
+            "passthroughAngle": 237,
+            "length": 27.4512444,
             "ceiling": false,
             "wall": true,
             "material": "Brick"
@@ -83,28 +77,8 @@
             "leftLedge": false,
             "rightLedge": false,
             "noWallJump": false,
-            "passthroughAngle": 191,
-            "length": 43.9531555,
-            "ceiling": false,
-            "wall": true,
-            "material": "Brick"
-          },
-          {
-            "leftLedge": false,
-            "rightLedge": false,
-            "noWallJump": false,
-            "passthroughAngle": 229,
-            "length": 24.9102974,
-            "ceiling": false,
-            "wall": true,
-            "material": "Brick"
-          },
-          {
-            "leftLedge": false,
-            "rightLedge": false,
-            "noWallJump": false,
-            "passthroughAngle": 192,
-            "length": 10.8312969,
+            "passthroughAngle": 223,
+            "length": 22.91412,
             "ceiling": false,
             "wall": true,
             "material": "Brick"
@@ -114,7 +88,7 @@
             "rightLedge": false,
             "noWallJump": false,
             "passthroughAngle": 180,
-            "length": 23.6591549,
+            "length": 8.318974,
             "ceiling": false,
             "wall": true,
             "material": "Brick"
@@ -134,7 +108,7 @@
             "rightLedge": false,
             "noWallJump": false,
             "passthroughAngle": 90,
-            "length": 153.5,
+            "length": 149.974915,
             "ceiling": false,
             "wall": false,
             "material": "Brick"
@@ -154,17 +128,7 @@
             "rightLedge": false,
             "noWallJump": false,
             "passthroughAngle": 0,
-            "length": 14.3631,
-            "ceiling": false,
-            "wall": true,
-            "material": "Brick"
-          },
-          {
-            "leftLedge": false,
-            "rightLedge": false,
-            "noWallJump": false,
-            "passthroughAngle": 355,
-            "length": 21.06993,
+            "length": 8.318974,
             "ceiling": false,
             "wall": true,
             "material": "Brick"
@@ -174,7 +138,7 @@
             "rightLedge": false,
             "noWallJump": false,
             "passthroughAngle": 318,
-            "length": 19.9812126,
+            "length": 22.9159031,
             "ceiling": false,
             "wall": true,
             "material": "Brick"
@@ -183,28 +147,8 @@
             "leftLedge": false,
             "rightLedge": false,
             "noWallJump": false,
-            "passthroughAngle": 333,
-            "length": 15.5978661,
-            "ceiling": false,
-            "wall": true,
-            "material": "Brick"
-          },
-          {
-            "leftLedge": false,
-            "rightLedge": false,
-            "noWallJump": false,
-            "passthroughAngle": 6,
-            "length": 30.3753433,
-            "ceiling": false,
-            "wall": false,
-            "material": "Brick"
-          },
-          {
-            "leftLedge": false,
-            "rightLedge": false,
-            "noWallJump": false,
-            "passthroughAngle": 0,
-            "length": 85.8984756,
+            "passthroughAngle": 304,
+            "length": 27.4430714,
             "ceiling": false,
             "wall": true,
             "material": "Brick"
@@ -212,27 +156,27 @@
         ],
         "boundingBox": [
           [
-            -81.75,
-            -180.000015
+            -79.9856,
+            -40.11807
           ],
           [
-            81.75,
-            0.0
+            79.9893,
+            0.000259507942
           ]
         ]
       }
     ],
     "platforms": [
       {
-        "name": "COL_00_Scaffold01_thtough",
+        "name": "COL_00_Platform01_through",
         "vertex": [
           [
-            -71.21662,
-            29.6400146
+            -57.5274963,
+            24.119
           ],
           [
-            -35.21662,
-            29.6400146
+            -22.894495,
+            24.119
           ]
         ],
         "materials": [
@@ -249,25 +193,25 @@
         ],
         "boundingBox": [
           [
-            -71.21662,
-            29.6400146
+            -57.5274963,
+            24.119
           ],
           [
-            -35.21662,
-            29.6400146
+            -22.894495,
+            24.119
           ]
         ]
       },
       {
-        "name": "COL_00_Scaffold02_through",
+        "name": "COL_00_Platform03_through",
         "vertex": [
           [
-            33.45929,
-            29.6400146
+            22.683506,
+            24.119
           ],
           [
-            69.45929,
-            29.6400146
+            57.316494,
+            24.119
           ]
         ],
         "materials": [
@@ -284,98 +228,98 @@
         ],
         "boundingBox": [
           [
-            33.45929,
-            29.6400146
+            22.683506,
+            24.119
           ],
           [
-            69.45929,
-            29.6400146
+            57.316494,
+            24.119
           ]
         ]
       }
     ],
     "blast_zones": [
-      -237.0,
-      237.0,
-      190.0,
-      -142.0
+      -240.0,
+      240.0,
+      180.000046,
+      -140.000031
     ],
     "camera": [
-      -160.0,
-      160.0,
-      120.0,
-      -55.0
+      -170.0,
+      170.0,
+      130.0,
+      -80.0
     ],
     "center": [
       0.0,
-      0.0
+      0.000259507942
     ],
     "spawns": [
       [
-        -60.0,
-        0.0
+        -40.0,
+        24.23
       ],
       [
-        60.0,
-        0.0
+        40.0,
+        24.23
       ],
       [
         -20.0,
-        0.0
+        0.111259505
       ],
       [
         20.0,
         0.0
       ],
       [
-        -40.0,
-        0.0
+        -70.0,
+        0.111259505
       ],
       [
-        40.0,
-        0.0
+        70.0,
+        0.111259505
       ],
       [
-        55.0,
-        30.0
+        -45.0,
+        0.111259505
       ],
       [
-        -55.0,
-        30.0
+        45.0,
+        0.111259505
       ]
     ],
     "respawns": [
       [
         0.0,
-        80.0
+        70.0
       ],
       [
-        25.0,
-        80.0
+        36.0,
+        70.0
       ],
       [
-        -25.0,
-        80.0
+        -36.0,
+        70.0
       ],
       [
-        50.0,
-        80.0
+        72.0,
+        70.0
       ],
       [
-        -12.5,
-        98.5
+        -18.0,
+        98.0
       ],
       [
-        12.5,
-        98.5
+        18.0,
+        98.0
       ],
       [
-        -37.5,
-        98.5
+        -54.0,
+        98.0
       ],
       [
-        37.5,
-        98.5
+        54.0,
+        98.0
       ]
     ],
     "items": []
