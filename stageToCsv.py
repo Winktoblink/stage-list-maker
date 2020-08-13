@@ -21,7 +21,7 @@ def material_in_stage(stage_dict, material):
 
 
 def find_min(current, new):
-    if current == "" or current > new:
+    if current == "" or float(current) > new:
         return new
     else:
         return current
