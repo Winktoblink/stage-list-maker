@@ -6,17 +6,8 @@ import os
 stage_data = []
 fields = ['stage_name', 'min_left_blast_zone', 'min_right_blast_zone', 'min_top_blast_zone', 'min_bottom_blast_zone',
           'max_left_blast_zone', 'max_right_blast_zone', 'max_top_blast_zone', 'max_bottom_blast_zone', 'stage_width',
-          'min_edge_to_side_blast_zone', 'max_edge_to_side_blast_zone', 'hasWalkOffs', 'number_of_ledges', 'hasCeiling',
-          'hasWallInfinite', 'hasRandom', 'hasWater', 'hasHurt', 'hasIce', 'hasSymmetry', 'hasTransform', 'has2D']
-csvFilename = "stage_data.csv"
-
-
-def material_in_stage(stage_dict, material):
-    match = "\'material\': \'" + material + "\'"
-    match2 = "\"material\": \"" + material + "\""
-    if match in str(stage_dict) or match2 in str(stage_dict):
-        return True
-
+          'min_edge_to_side_blast_zone', 'max_edge_to_side_blast_zone', 'hasWalkOffs']
+csvFilename = "generated_data.csv"
 
 def find_min(current, new):
     if current == "" or float(current) > new:
@@ -88,3 +79,4 @@ with open(csvFilename, 'w') as csvFile:
 
     # writing data rows
     writer.writerows(stage_data)
+
