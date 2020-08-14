@@ -5,11 +5,9 @@ import os
 
 stage_data = []
 fields = ['stage_name', 'min_left_blast_zone', 'min_right_blast_zone', 'min_top_blast_zone', 'min_bottom_blast_zone',
-          'max_left_blast_zone', 'max_right_blast_zone', 'max_top_blast_zone', 'max_bottom_blast_zone',
-          'number_of_ledges', 'stage_width', 'min_edge_to_side_blast_zone', 'max_edge_to_side_blast_zone', 'hasCeiling',
-          'hasWallInfinite', 'hasRandom', 'hasWater', 'hasHurt',
-          'hasIce',
-          'hasWalkOffs', 'hasSymmetry', 'hasTransform', 'has2D']
+          'max_left_blast_zone', 'max_right_blast_zone', 'max_top_blast_zone', 'max_bottom_blast_zone', 'stage_width',
+          'min_edge_to_side_blast_zone', 'max_edge_to_side_blast_zone', 'hasWalkOffs', 'number_of_ledges', 'hasCeiling',
+          'hasWallInfinite', 'hasRandom', 'hasWater', 'hasHurt', 'hasIce', 'hasSymmetry', 'hasTransform', 'has2D']
 csvFilename = "stage_data.csv"
 
 
@@ -72,6 +70,9 @@ for subdir, dirs, files in os.walk(r'stage'):
                         max_bounding_box_right = row['max_right_blast_zone']
                     ledge_to_blast.append(abs(round(blast_zones[0], 0) - min_bounding_box_left))
                     ledge_to_blast.append(abs(round(blast_zones[1], 0) - max_bounding_box_right))
+                if not row['hasWalkOffs']:
+                    row['hasWalkOffs'] = False
+
                 row['min_edge_to_side_blast_zone'] = min(ledge_to_blast)
                 row['max_edge_to_side_blast_zone'] = max(ledge_to_blast)
                 row['stage_width'] = round(max_bounding_box_right - min_bounding_box_left, 0)
