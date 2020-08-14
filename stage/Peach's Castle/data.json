@@ -166,188 +166,6 @@
         ]
       },
       {
-        "name": "COL_curve4",
-        "vertex": [
-          [
-            107.013893,
-            66.97179
-          ],
-          [
-            86.00017,
-            65.99957
-          ],
-          [
-            86.00017,
-            66.0324
-          ],
-          [
-            109.84713,
-            94.0
-          ],
-          [
-            109.993271,
-            94.0
-          ],
-          [
-            107.013893,
-            66.97179
-          ]
-        ],
-        "materials": [
-          {
-            "leftLedge": false,
-            "rightLedge": false,
-            "noWallJump": false,
-            "passthroughAngle": 273,
-            "length": 21.0362034,
-            "ceiling": true,
-            "wall": false,
-            "material": "Brick"
-          },
-          {
-            "leftLedge": false,
-            "rightLedge": false,
-            "noWallJump": false,
-            "passthroughAngle": 180,
-            "length": 0.0328292847,
-            "ceiling": false,
-            "wall": true,
-            "material": "Brick"
-          },
-          {
-            "leftLedge": false,
-            "rightLedge": false,
-            "noWallJump": false,
-            "passthroughAngle": 139,
-            "length": 36.7541046,
-            "ceiling": false,
-            "wall": false,
-            "material": "Brick"
-          },
-          {
-            "leftLedge": false,
-            "rightLedge": false,
-            "noWallJump": false,
-            "passthroughAngle": 90,
-            "length": 0.146141052,
-            "ceiling": false,
-            "wall": false,
-            "material": "Brick"
-          },
-          {
-            "leftLedge": false,
-            "rightLedge": false,
-            "noWallJump": false,
-            "passthroughAngle": 354,
-            "length": 27.1919289,
-            "ceiling": false,
-            "wall": true,
-            "material": "Brick"
-          }
-        ],
-        "boundingBox": [
-          [
-            -13.9998341,
-            -13.0004263
-          ],
-          [
-            9.993271,
-            15.0
-          ]
-        ]
-      },
-      {
-        "name": "COL_curve3",
-        "vertex": [
-          [
-            -106.999329,
-            66.9953461
-          ],
-          [
-            -110.015808,
-            94.0
-          ],
-          [
-            -109.908989,
-            94.0
-          ],
-          [
-            -85.99996,
-            66.0189362
-          ],
-          [
-            -85.99996,
-            65.9999542
-          ],
-          [
-            -106.999329,
-            66.9953461
-          ]
-        ],
-        "materials": [
-          {
-            "leftLedge": false,
-            "rightLedge": false,
-            "noWallJump": false,
-            "passthroughAngle": 187,
-            "length": 27.1726055,
-            "ceiling": false,
-            "wall": true,
-            "material": "Brick"
-          },
-          {
-            "leftLedge": false,
-            "rightLedge": false,
-            "noWallJump": false,
-            "passthroughAngle": 90,
-            "length": 0.106819153,
-            "ceiling": false,
-            "wall": false,
-            "material": "Brick"
-          },
-          {
-            "leftLedge": false,
-            "rightLedge": false,
-            "noWallJump": false,
-            "passthroughAngle": 40,
-            "length": 36.8046379,
-            "ceiling": false,
-            "wall": false,
-            "material": "Brick"
-          },
-          {
-            "leftLedge": false,
-            "rightLedge": false,
-            "noWallJump": false,
-            "passthroughAngle": 0,
-            "length": 0.0189819336,
-            "ceiling": false,
-            "wall": true,
-            "material": "Brick"
-          },
-          {
-            "leftLedge": false,
-            "rightLedge": false,
-            "noWallJump": false,
-            "passthroughAngle": 268,
-            "length": 21.0229454,
-            "ceiling": true,
-            "wall": false,
-            "material": "Brick"
-          }
-        ],
-        "boundingBox": [
-          [
-            -10.01581,
-            -13.000042
-          ],
-          [
-            14.0000381,
-            15.0
-          ]
-        ]
-      },
-      {
         "name": "COL_curve1",
         "vertex": [
           [
@@ -437,9 +255,7 @@
             4.161014
           ]
         ]
-      }
-    ],
-    "platforms": [
+      },
       {
         "name": "COL_curve2",
         "vertex": [
@@ -615,6 +431,9 @@
           ]
         ]
       }
+    ],
+    "platforms": [
+
     ],
     "blast_zones": [
       -260.0,
