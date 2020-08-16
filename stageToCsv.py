@@ -9,6 +9,7 @@ fields = ['stage_name', 'min_left_blast_zone', 'min_right_blast_zone', 'min_top_
           'min_edge_to_side_blast_zone', 'max_edge_to_side_blast_zone', 'hasWalkOffs']
 csvFilename = "generated_data.csv"
 
+
 def find_min(current, new):
     if current == "" or float(current) > new:
         return new
@@ -79,4 +80,3 @@ with open(csvFilename, 'w') as csvFile:
 
     # writing data rows
     writer.writerows(stage_data)
-
